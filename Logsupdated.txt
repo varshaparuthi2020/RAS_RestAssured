@@ -1,0 +1,4366 @@
+Request method:	POST
+Request URI:	http://localhost:8090/accounts/addAccount
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accountDto": {
+        "accountNumber": "LA26112021",
+        "productId": 12580,
+        "accountType": "LOAN",
+        "accountName": "VRRAni",
+        "description": "LoanAccount desc",
+        "createdBy": "Vrsha",
+        "status": "ACTIVE",
+        "accountId": 0,
+        "statusCode": null,
+        "message": null
+    },
+    "statusCode": null,
+    "message": null
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 268
+Date: Fri, 26 Nov 2021 11:27:57 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "accountDto": {
+        "accountNumber": "LA26112021",
+        "productId": 12580,
+        "accountType": "LOAN",
+        "accountName": "VRRAni",
+        "description": "LoanAccount desc",
+        "createdBy": "Vrsha",
+        "status": "ACTIVE",
+        "accountId": 12800
+    },
+    "statusCode": "SUCCESS",
+    "message": "Account has been successfully saved."
+}
+Request method:	POST
+Request URI:	http://localhost:8090/accounts/addAccount
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accountDto": {
+        "accountNumber": "LA26112021",
+        "productId": 12580,
+        "accountType": "LOAN",
+        "accountName": "VRRAni",
+        "description": "LoanAccount desc",
+        "createdBy": "Vrsha",
+        "status": "ACTIVE",
+        "accountId": 0,
+        "statusCode": null,
+        "message": null
+    },
+    "statusCode": null,
+    "message": null
+}
+HTTP/1.1 409 
+Content-Type: application/json
+Content-Length: 121
+Date: Fri, 26 Nov 2021 11:27:57 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "timestamp": "2021-11-26 16:57:58.0",
+    "statusCode": "ERROR",
+    "message": "Account Number LA26112021 already exists in system"
+}
+Request method:	POST
+Request URI:	http://localhost:8090/accounts/addAccount
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accountDto": {
+        "accountNumber": "PA2622021",
+        "productId": 12580,
+        "accountType": "POOL",
+        "accountName": "VRRAni",
+        "description": "LoanAccount desc",
+        "createdBy": "Vrsha",
+        "status": "ACTIVE",
+        "accountId": 0,
+        "statusCode": null,
+        "message": null
+    },
+    "statusCode": null,
+    "message": null
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 267
+Date: Fri, 26 Nov 2021 11:27:57 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "accountDto": {
+        "accountNumber": "PA2622021",
+        "productId": 12580,
+        "accountType": "POOL",
+        "accountName": "VRRAni",
+        "description": "LoanAccount desc",
+        "createdBy": "Vrsha",
+        "status": "ACTIVE",
+        "accountId": 12801
+    },
+    "statusCode": "SUCCESS",
+    "message": "Account has been successfully saved."
+}
+Request method:	POST
+Request URI:	http://localhost:8090/accounts/addAccount
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accountDto": {
+        "accountNumber": "PA2622021",
+        "productId": 12580,
+        "accountType": "POOL",
+        "accountName": "VRRAni",
+        "description": "LoanAccount desc",
+        "createdBy": "Vrsha",
+        "status": "ACTIVE",
+        "accountId": 0,
+        "statusCode": null,
+        "message": null
+    },
+    "statusCode": null,
+    "message": null
+}
+HTTP/1.1 409 
+Content-Type: application/json
+Content-Length: 120
+Date: Fri, 26 Nov 2021 11:27:57 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "timestamp": "2021-11-26 16:57:58.0",
+    "statusCode": "ERROR",
+    "message": "Account Number PA2622021 already exists in system"
+}
+Request method:	POST
+Request URI:	http://localhost:8090/accounts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "productId": 12580,
+    "productName": "Hello000"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 10419
+Date: Fri, 26 Nov 2021 11:27:57 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "accounts": [
+        {
+            "accountNumber": "LNovdiw",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "Varsha",
+            "description": "LOAN account3 new",
+            "createdBy": "Raman",
+            "status": "ACTIVE",
+            "accountId": 12630
+        },
+        {
+            "accountNumber": "LA101",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12631
+        },
+        {
+            "accountNumber": "LA10001",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12632
+        },
+        {
+            "accountNumber": "PA10001",
+            "productId": 12580,
+            "accountType": "POOL",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12633
+        },
+        {
+            "accountNumber": "LA20001",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12634
+        },
+        {
+            "accountNumber": "PA20001",
+            "productId": 12580,
+            "accountType": "POOL",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12635
+        },
+        {
+            "accountNumber": "LA30001",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12646
+        },
+        {
+            "accountNumber": "PA30001",
+            "productId": 12580,
+            "accountType": "POOL",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12647
+        },
+        {
+            "accountNumber": "A101",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12653
+        },
+        {
+            "accountNumber": "A102",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12654
+        },
+        {
+            "accountNumber": "A103",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12655
+        },
+        {
+            "accountNumber": "A104",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12656
+        },
+        {
+            "accountNumber": "A105",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12657
+        },
+        {
+            "accountNumber": "A106",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12658
+        },
+        {
+            "accountNumber": "A107",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12659
+        },
+        {
+            "accountNumber": "A108",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12660
+        },
+        {
+            "accountNumber": "A109",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12661
+        },
+        {
+            "accountNumber": "A110",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12662
+        },
+        {
+            "accountNumber": "A111",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12663
+        },
+        {
+            "accountNumber": "A112",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12664
+        },
+        {
+            "accountNumber": "A113",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12665
+        },
+        {
+            "accountNumber": "A114",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12666
+        },
+        {
+            "accountNumber": "A115",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12667
+        },
+        {
+            "accountNumber": "A116",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12668
+        },
+        {
+            "accountNumber": "A117",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12669
+        },
+        {
+            "accountNumber": "A118",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12670
+        },
+        {
+            "accountNumber": "A119",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12671
+        },
+        {
+            "accountNumber": "A120",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12672
+        },
+        {
+            "accountNumber": "A121",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12673
+        },
+        {
+            "accountNumber": "A122",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12674
+        },
+        {
+            "accountNumber": "A123",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12675
+        },
+        {
+            "accountNumber": "A124",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12676
+        },
+        {
+            "accountNumber": "A125",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12677
+        },
+        {
+            "accountNumber": "A126",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12678
+        },
+        {
+            "accountNumber": "A127",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12679
+        },
+        {
+            "accountNumber": "A131",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12680
+        },
+        {
+            "accountNumber": "LA6001",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12686
+        },
+        {
+            "accountNumber": "PA6002",
+            "productId": 12580,
+            "accountType": "POOL",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12687
+        },
+        {
+            "accountNumber": "LA7001",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12688
+        },
+        {
+            "accountNumber": "PA7002",
+            "productId": 12580,
+            "accountType": "POOL",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12689
+        },
+        {
+            "accountNumber": "A136",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12690
+        },
+        {
+            "accountNumber": "LA8001",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12696
+        },
+        {
+            "accountNumber": "PA8002",
+            "productId": 12580,
+            "accountType": "POOL",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12697
+        },
+        {
+            "accountNumber": "A137",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12698
+        },
+        {
+            "accountNumber": "LA9001",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12719
+        },
+        {
+            "accountNumber": "PA9002",
+            "productId": 12580,
+            "accountType": "POOL",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12720
+        },
+        {
+            "accountNumber": "A2001",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12721
+        },
+        {
+            "accountNumber": "LA2601",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12754
+        },
+        {
+            "accountNumber": "PA2602",
+            "productId": 12580,
+            "accountType": "POOL",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12755
+        },
+        {
+            "accountNumber": "A2601",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12756
+        },
+        {
+            "accountNumber": "LA2611",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12767
+        },
+        {
+            "accountNumber": "PA2622",
+            "productId": 12580,
+            "accountType": "POOL",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12768
+        },
+        {
+            "accountNumber": "A2611",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12769
+        },
+        {
+            "accountNumber": "LA261121",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12790
+        },
+        {
+            "accountNumber": "PA262221",
+            "productId": 12580,
+            "accountType": "POOL",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12791
+        },
+        {
+            "accountNumber": "A261121",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "INACTIVE",
+            "accountId": 12792
+        },
+        {
+            "accountNumber": "LA26112021",
+            "productId": 12580,
+            "accountType": "LOAN",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12800
+        },
+        {
+            "accountNumber": "PA2622021",
+            "productId": 12580,
+            "accountType": "POOL",
+            "accountName": "VRRAni",
+            "description": "LoanAccount desc",
+            "createdBy": "Vrsha",
+            "status": "ACTIVE",
+            "accountId": 12801
+        }
+    ],
+    "statusCode": "SUCCESS",
+    "message": "Successful Response",
+    "totalRecords": 58
+}
+Request method:	POST
+Request URI:	http://localhost:8090/accounts/addAccount
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accountDto": {
+        "accountNumber": "A26112021",
+        "productId": 12580,
+        "accountType": "loan",
+        "accountName": "VRRAni",
+        "description": "LoanAccount desc",
+        "createdBy": "Vrsha",
+        "status": "ACTIVE",
+        "accountId": 0,
+        "statusCode": null,
+        "message": null
+    },
+    "statusCode": null,
+    "message": null
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 267
+Date: Fri, 26 Nov 2021 11:27:57 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "accountDto": {
+        "accountNumber": "A26112021",
+        "productId": 12580,
+        "accountType": "LOAN",
+        "accountName": "VRRAni",
+        "description": "LoanAccount desc",
+        "createdBy": "Vrsha",
+        "status": "ACTIVE",
+        "accountId": 12802
+    },
+    "statusCode": "SUCCESS",
+    "message": "Account has been successfully saved."
+}
+Request method:	POST
+Request URI:	http://localhost:8090/accounts/addAccount
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accountDto": {
+        "accountNumber": "A26112021",
+        "productId": 12580,
+        "accountType": "loan",
+        "accountName": "VRRAni",
+        "description": "LoanAccount desc",
+        "createdBy": "Vrsha",
+        "status": "ACTIVE",
+        "accountId": 0,
+        "statusCode": null,
+        "message": null
+    },
+    "statusCode": null,
+    "message": null
+}
+HTTP/1.1 409 
+Content-Type: application/json
+Content-Length: 120
+Date: Fri, 26 Nov 2021 11:27:57 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "timestamp": "2021-11-26 16:57:58.0",
+    "statusCode": "ERROR",
+    "message": "Account Number A26112021 already exists in system"
+}
+Request method:	POST
+Request URI:	http://localhost:8090/accounts/updateStatus
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accountId": 12802,
+    "productId": 0,
+    "accountNumber": "",
+    "status": "INACTIVE",
+    "updatedBy": "Neeraj"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 266
+Date: Fri, 26 Nov 2021 11:27:57 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "accountDto": {
+        "accountNumber": "A26112021",
+        "productId": 12580,
+        "accountType": "LOAN",
+        "accountName": "VRRAni",
+        "description": "LoanAccount desc",
+        "createdBy": "Vrsha",
+        "status": "INACTIVE",
+        "accountId": 12802
+    },
+    "statusCode": "SUCCESS",
+    "message": "AccountId 12802 has been modified"
+}
+Request method:	GET
+Request URI:	http://localhost:8090/products/productId/12580
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 456
+Date: Fri, 26 Nov 2021 11:27:57 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "productDto": {
+        "productId": 12580,
+        "productName": "Hello000",
+        "description": "Hellotere",
+        "accountingType": "TRIPLE",
+        "status": "ACTIVE",
+        "currency": "EUR",
+        "uom": "NUMBER",
+        "createdBy": "Vrsha",
+        "productClientDtoList": [
+            {
+                "clientId": "1001",
+                "productClientId": 12581
+            }
+        ],
+        "productConfigDtoList": [
+            {
+                "configName": "MAX_ALLOWED_AMOUNT",
+                "configValue": "500",
+                "configId": 12582,
+                "productId": 12580,
+                "status": "ACTIVE",
+                "createdBy": "vr"
+            }
+        ]
+    },
+    "statusCode": "SUCCESS",
+    "message": "Successful response"
+}
+Request method:	GET
+Request URI:	http://localhost:8090/accounts/accountNumber/A26112021/productName/Hello000
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 252
+Date: Fri, 26 Nov 2021 11:27:57 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "accountDto": {
+        "accountNumber": "A26112021",
+        "productId": 12580,
+        "accountType": "LOAN",
+        "accountName": "VRRAni",
+        "description": "LoanAccount desc",
+        "createdBy": "Vrsha",
+        "status": "INACTIVE",
+        "accountId": 12802
+    },
+    "statusCode": "SUCCESS",
+    "message": "Successful Response"
+}
+Request method:	GET
+Request URI:	http://localhost:8090/products
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 28003
+Date: Fri, 26 Nov 2021 11:27:57 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "products": [
+        {
+            "productId": 12620,
+            "productName": "3Nov",
+            "description": "Prod description Hell020Nov",
+            "accountingType": "TRIPLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12621
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12622,
+                    "productId": 12620,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                },
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "1001",
+                    "configId": 12623,
+                    "productId": 12620,
+                    "status": "ACTIVE",
+                    "createdBy": "Seema"
+                },
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12624,
+                    "productId": 12620,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                }
+            ]
+        },
+        {
+            "productId": 12455,
+            "productName": "Quick17",
+            "description": "Updating status of product",
+            "accountingType": "SINGLE",
+            "status": "INACTIVE",
+            "currency": "",
+            "uom": "NUMBER",
+            "createdBy": "Veera",
+            "productClientDtoList": [
+                {
+                    "clientId": "KISO_PAY",
+                    "productClientId": 12456
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12458,
+                    "productId": 12455,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                },
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "100",
+                    "configId": 12457,
+                    "productId": 12455,
+                    "status": "ACTIVE",
+                    "createdBy": "MANUAL"
+                },
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "2400",
+                    "configId": 12459,
+                    "productId": 12455,
+                    "status": "ACTIVE",
+                    "createdBy": "Varsha"
+                }
+            ]
+        },
+        {
+            "productId": 12460,
+            "productName": "DoorStep27",
+            "description": "Testing for Product doorstep",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "INR",
+            "uom": "CURRENCY",
+            "createdBy": "VR",
+            "productClientDtoList": [
+                {
+                    "clientId": "KISO_PAY101",
+                    "productClientId": 12461
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "100",
+                    "configId": 12462,
+                    "productId": 12460,
+                    "status": "ACTIVE",
+                    "createdBy": "MANUAL"
+                }
+            ]
+        },
+        {
+            "productId": 12464,
+            "productName": "Quick71",
+            "description": "Updating status of product",
+            "accountingType": "SINGLE",
+            "status": "INACTIVE",
+            "currency": "",
+            "uom": "NUMBER",
+            "createdBy": "Veera",
+            "productClientDtoList": [
+                {
+                    "clientId": "KISO_PAY",
+                    "productClientId": 12465
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "2400",
+                    "configId": 12467,
+                    "productId": 12464,
+                    "status": "ACTIVE",
+                    "createdBy": "Varsha"
+                },
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "100",
+                    "configId": 12466,
+                    "productId": 12464,
+                    "status": "ACTIVE",
+                    "createdBy": "MANUAL"
+                },
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12468,
+                    "productId": 12464,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                }
+            ]
+        },
+        {
+            "productId": 12469,
+            "productName": "DoorStep2",
+            "description": "Testing for Product doorstep",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "INR",
+            "uom": "CURRENCY",
+            "createdBy": "VR",
+            "productClientDtoList": [
+                {
+                    "clientId": "KISO_PAY101",
+                    "productClientId": 12470
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "100",
+                    "configId": 12471,
+                    "productId": 12469,
+                    "status": "ACTIVE",
+                    "createdBy": "MANUAL"
+                }
+            ]
+        },
+        {
+            "productId": 12625,
+            "productName": "22Nov",
+            "description": "Prod description Hell022Nov",
+            "accountingType": "TRIPLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12626
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12629,
+                    "productId": 12625,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                },
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "1001",
+                    "configId": 12628,
+                    "productId": 12625,
+                    "status": "ACTIVE",
+                    "createdBy": "Seema"
+                },
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12627,
+                    "productId": 12625,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12473,
+            "productName": "Quick12",
+            "description": "Updating status of product",
+            "accountingType": "SINGLE",
+            "status": "INACTIVE",
+            "currency": "",
+            "uom": "NUMBER",
+            "createdBy": "Veera",
+            "productClientDtoList": [
+                {
+                    "clientId": "KISO_PAY",
+                    "productClientId": 12474
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12477,
+                    "productId": 12473,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                },
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "100",
+                    "configId": 12475,
+                    "productId": 12473,
+                    "status": "ACTIVE",
+                    "createdBy": "MANUAL"
+                },
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "2400",
+                    "configId": 12476,
+                    "productId": 12473,
+                    "status": "ACTIVE",
+                    "createdBy": "Varsha"
+                }
+            ]
+        },
+        {
+            "productId": 12478,
+            "productName": "DoorStep38",
+            "description": "Testing for Product doorstep",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "INR",
+            "uom": "CURRENCY",
+            "createdBy": "VR",
+            "productClientDtoList": [
+                {
+                    "clientId": "KISO_PAY101",
+                    "productClientId": 12479
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "100",
+                    "configId": 12480,
+                    "productId": 12478,
+                    "status": "ACTIVE",
+                    "createdBy": "MANUAL"
+                }
+            ]
+        },
+        {
+            "productId": 12482,
+            "productName": "DoorStep22",
+            "description": "Testing for Product doorstep",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "INR",
+            "uom": "CURRENCY",
+            "createdBy": "VR",
+            "productClientDtoList": [
+                {
+                    "clientId": "KISO_PAY101",
+                    "productClientId": 12483
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "100",
+                    "configId": 12484,
+                    "productId": 12482,
+                    "status": "ACTIVE",
+                    "createdBy": "MANUAL"
+                }
+            ]
+        },
+        {
+            "productId": 12486,
+            "productName": "Quick41",
+            "description": "Updating status of product",
+            "accountingType": "SINGLE",
+            "status": "INACTIVE",
+            "currency": "",
+            "uom": "NUMBER",
+            "createdBy": "Veera",
+            "productClientDtoList": [
+                {
+                    "clientId": "KISO_PAY",
+                    "productClientId": 12487
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12490,
+                    "productId": 12486,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                },
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "100",
+                    "configId": 12488,
+                    "productId": 12486,
+                    "status": "ACTIVE",
+                    "createdBy": "MANUAL"
+                },
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "2400",
+                    "configId": 12489,
+                    "productId": 12486,
+                    "status": "ACTIVE",
+                    "createdBy": "Varsha"
+                }
+            ]
+        },
+        {
+            "productId": 12491,
+            "productName": "DoorStep15",
+            "description": "Testing for Product doorstep",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "INR",
+            "uom": "CURRENCY",
+            "createdBy": "VR",
+            "productClientDtoList": [
+                {
+                    "clientId": "KISO_PAY101",
+                    "productClientId": 12492
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "100",
+                    "configId": 12493,
+                    "productId": 12491,
+                    "status": "ACTIVE",
+                    "createdBy": "MANUAL"
+                }
+            ]
+        },
+        {
+            "productId": 12495,
+            "productName": "L1043",
+            "description": "Testing for Product dooestep",
+            "accountingType": "DOUBLE",
+            "status": "ACTIVE",
+            "currency": "INR",
+            "uom": "CURRENCY",
+            "createdBy": "Sim",
+            "productClientDtoList": [
+                {
+                    "clientId": "KISO_PAY101",
+                    "productClientId": 12496
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "100",
+                    "configId": 12497,
+                    "productId": 12495,
+                    "status": "ACTIVE",
+                    "createdBy": "MANUAL"
+                }
+            ]
+        },
+        {
+            "productId": 12501,
+            "productName": "nwedv9912",
+            "description": "new productnewyr",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12502
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12503,
+                    "productId": 12501,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12504,
+            "productName": "nwedv9913",
+            "description": "new productnewyr",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12505
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12506,
+                    "productId": 12504,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12507,
+            "productName": "nwedv9923",
+            "description": "new productnewyr",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12508
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12509,
+                    "productId": 12507,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12510,
+            "productName": "nwedv9823",
+            "description": "new productnewyr",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12511
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12512,
+                    "productId": 12510,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12513,
+            "productName": "V189092711",
+            "description": "First product",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "INR",
+            "uom": "CURRENCY",
+            "createdBy": "Ram",
+            "productClientDtoList": [
+                {
+                    "clientId": "102",
+                    "productClientId": 12515
+                },
+                {
+                    "clientId": "101",
+                    "productClientId": 12514
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "100",
+                    "configId": 12516,
+                    "productId": 12513,
+                    "status": "ACTIVE",
+                    "createdBy": "Shyam"
+                }
+            ]
+        },
+        {
+            "productId": 12636,
+            "productName": "November",
+            "description": "new productnewyr",
+            "accountingType": "DOUBLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12637
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12638,
+                    "productId": 12636,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                },
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "1001",
+                    "configId": 12640,
+                    "productId": 12636,
+                    "status": "ACTIVE",
+                    "createdBy": "Seema"
+                },
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12639,
+                    "productId": 12636,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                }
+            ]
+        },
+        {
+            "productId": 12517,
+            "productName": "Quick7",
+            "description": "Updating status of product",
+            "accountingType": "SINGLE",
+            "status": "INACTIVE",
+            "currency": "",
+            "uom": "NUMBER",
+            "createdBy": "Veera",
+            "productClientDtoList": [
+                {
+                    "clientId": "KISO_PAY",
+                    "productClientId": 12518
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "100",
+                    "configId": 12519,
+                    "productId": 12517,
+                    "status": "ACTIVE",
+                    "createdBy": "MANUAL"
+                },
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "2400",
+                    "configId": 12521,
+                    "productId": 12517,
+                    "status": "ACTIVE",
+                    "createdBy": "Varsha"
+                },
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12520,
+                    "productId": 12517,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                }
+            ]
+        },
+        {
+            "productId": 12522,
+            "productName": "DoorStep58",
+            "description": "Testing for Product doorstep",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "INR",
+            "uom": "CURRENCY",
+            "createdBy": "VR",
+            "productClientDtoList": [
+                {
+                    "clientId": "KISO_PAY101",
+                    "productClientId": 12523
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "100",
+                    "configId": 12524,
+                    "productId": 12522,
+                    "status": "ACTIVE",
+                    "createdBy": "MANUAL"
+                }
+            ]
+        },
+        {
+            "productId": 12526,
+            "productName": "L1059",
+            "description": "Testing for Product dooestep",
+            "accountingType": "DOUBLE",
+            "status": "ACTIVE",
+            "currency": "INR",
+            "uom": "CURRENCY",
+            "createdBy": "Sim",
+            "productClientDtoList": [
+                {
+                    "clientId": "KISO_PAY101",
+                    "productClientId": 12527
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "100",
+                    "configId": 12528,
+                    "productId": 12526,
+                    "status": "ACTIVE",
+                    "createdBy": "MANUAL"
+                }
+            ]
+        },
+        {
+            "productId": 12532,
+            "productName": "Hello786",
+            "description": "Hellothere",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12533
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12534,
+                    "productId": 12532,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12535,
+            "productName": "Hello76",
+            "description": "Hellotere",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12536
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12537,
+                    "productId": 12535,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12538,
+            "productName": "vr868690",
+            "description": "First product",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "INR",
+            "uom": "CURRENCY",
+            "createdBy": "Ram",
+            "productClientDtoList": [
+                {
+                    "clientId": "101",
+                    "productClientId": 12540
+                },
+                {
+                    "clientId": "102",
+                    "productClientId": 12539
+                }
+            ],
+            "productConfigDtoList": [
+                
+            ]
+        },
+        {
+            "productId": 12541,
+            "productName": "Hello66",
+            "description": "Hellotere",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12542
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12543,
+                    "productId": 12541,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12544,
+            "productName": "Hello56",
+            "description": "Hellotere",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12545
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12546,
+                    "productId": 12544,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12547,
+            "productName": "Hello46",
+            "description": "Hellotere",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12548
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12549,
+                    "productId": 12547,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12550,
+            "productName": "Hello36",
+            "description": "Hellotere",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12551
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12552,
+                    "productId": 12550,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12553,
+            "productName": "Hello26",
+            "description": "Hellotere",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12554
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12555,
+                    "productId": 12553,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12556,
+            "productName": "Hello16",
+            "description": "Hellotere",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12557
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12558,
+                    "productId": 12556,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12559,
+            "productName": "Hello06",
+            "description": "Hellotere",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12560
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12561,
+                    "productId": 12559,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12562,
+            "productName": "Hello006",
+            "description": "Hellotere",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12563
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12564,
+                    "productId": 12562,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12565,
+            "productName": "Hello055",
+            "description": "Hellotere",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12566
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12567,
+                    "productId": 12565,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12568,
+            "productName": "Hello04",
+            "description": "Hellotere",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12569
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12570,
+                    "productId": 12568,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12571,
+            "productName": "Hello03",
+            "description": "Hellotere",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12572
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12573,
+                    "productId": 12571,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12574,
+            "productName": "Hello02",
+            "description": "Hellotere",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12575
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12576,
+                    "productId": 12574,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12577,
+            "productName": "Hello01",
+            "description": "Hellotere",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12578
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12579,
+                    "productId": 12577,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12580,
+            "productName": "Hello000",
+            "description": "Hellotere",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12581
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12582,
+                    "productId": 12580,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12583,
+            "productName": "Hello0016",
+            "description": "Hellotere",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12584
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12585,
+                    "productId": 12583,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12586,
+            "productName": "Hello001990",
+            "description": "Hellotere",
+            "accountingType": "TRIPLE",
+            "status": "ACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12587
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12588,
+                    "productId": 12586,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12589,
+            "productName": "Hello001992",
+            "description": "Hellotere",
+            "accountingType": "TRIPLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12590
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12591,
+                    "productId": 12589,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12592,
+            "productName": "Hell020Nov",
+            "description": "Prod description Hell020Nov",
+            "accountingType": "TRIPLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12593
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12594,
+                    "productId": 12592,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12595,
+            "productName": "20Nov",
+            "description": "Prod description Hell020Nov",
+            "accountingType": "TRIPLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12596
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12597,
+                    "productId": 12595,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12598,
+            "productName": "2021Nov",
+            "description": "Prod description Hell020Nov",
+            "accountingType": "TRIPLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12599
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12600,
+                    "productId": 12598,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12601,
+            "productName": "qq11Nov",
+            "description": "Prod description Hell020Nov",
+            "accountingType": "TRIPLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12602
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12604,
+                    "productId": 12601,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                },
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "1001",
+                    "configId": 12605,
+                    "productId": 12601,
+                    "status": "ACTIVE",
+                    "createdBy": "Seema"
+                },
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12603,
+                    "productId": 12601,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12606,
+            "productName": "qq12Nov",
+            "description": "Prod description Hell020Nov",
+            "accountingType": "TRIPLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12607
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12608,
+                    "productId": 12606,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12609,
+            "productName": "qq13Nov",
+            "description": "Prod description Hell020Nov",
+            "accountingType": "TRIPLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12610
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12611,
+                    "productId": 12609,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12612,
+            "productName": "qq3Nov",
+            "description": "Prod description Hell020Nov",
+            "accountingType": "TRIPLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12613
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12614,
+                    "productId": 12612,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12615,
+            "productName": "q3Nov",
+            "description": "Prod description Hell020Nov",
+            "accountingType": "TRIPLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12616
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "1001",
+                    "configId": 12619,
+                    "productId": 12615,
+                    "status": "ACTIVE",
+                    "createdBy": "Seema"
+                },
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12617,
+                    "productId": 12615,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                },
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12618,
+                    "productId": 12615,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                }
+            ]
+        },
+        {
+            "productId": 12641,
+            "productName": "Nov",
+            "description": "new productnewyr",
+            "accountingType": "DOUBLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12642
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "1001",
+                    "configId": 12644,
+                    "productId": 12641,
+                    "status": "ACTIVE",
+                    "createdBy": "Seema"
+                },
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12645,
+                    "productId": 12641,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                },
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12643,
+                    "productId": 12641,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12648,
+            "productName": "Nov21",
+            "description": "new productnewyr",
+            "accountingType": "DOUBLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12649
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "1001",
+                    "configId": 12651,
+                    "productId": 12648,
+                    "status": "ACTIVE",
+                    "createdBy": "Seema"
+                },
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12650,
+                    "productId": 12648,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                },
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12652,
+                    "productId": 12648,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                }
+            ]
+        },
+        {
+            "productId": 12681,
+            "productName": "Nov23",
+            "description": "new productnewyr",
+            "accountingType": "DOUBLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12682
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "1001",
+                    "configId": 12684,
+                    "productId": 12681,
+                    "status": "ACTIVE",
+                    "createdBy": "Seema"
+                },
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12685,
+                    "productId": 12681,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                },
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12683,
+                    "productId": 12681,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12691,
+            "productName": "Nov2311220",
+            "description": "new productnewyr",
+            "accountingType": "DOUBLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12692
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12693,
+                    "productId": 12691,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                },
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12694,
+                    "productId": 12691,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                },
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "1001",
+                    "configId": 12695,
+                    "productId": 12691,
+                    "status": "ACTIVE",
+                    "createdBy": "Seema"
+                }
+            ]
+        },
+        {
+            "productId": 12699,
+            "productName": "No",
+            "description": "new productnewyr",
+            "accountingType": "DOUBLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12700
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "1001",
+                    "configId": 12702,
+                    "productId": 12699,
+                    "status": "ACTIVE",
+                    "createdBy": "Seema"
+                },
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12703,
+                    "productId": 12699,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                },
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12701,
+                    "productId": 12699,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        },
+        {
+            "productId": 12722,
+            "productName": "Nov25",
+            "description": "new productnewyr",
+            "accountingType": "DOUBLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12723
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "1001",
+                    "configId": 12725,
+                    "productId": 12722,
+                    "status": "ACTIVE",
+                    "createdBy": "Seema"
+                },
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12724,
+                    "productId": 12722,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                },
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12726,
+                    "productId": 12722,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                }
+            ]
+        },
+        {
+            "productId": 12757,
+            "productName": "Nov26",
+            "description": "new productnewyr",
+            "accountingType": "DOUBLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12758
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12759,
+                    "productId": 12757,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                },
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "1001",
+                    "configId": 12761,
+                    "productId": 12757,
+                    "status": "ACTIVE",
+                    "createdBy": "Seema"
+                },
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12760,
+                    "productId": 12757,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                }
+            ]
+        },
+        {
+            "productId": 12770,
+            "productName": "Nov2611",
+            "description": "new productnewyr",
+            "accountingType": "DOUBLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12771
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12772,
+                    "productId": 12770,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                },
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12774,
+                    "productId": 12770,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                },
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "1001",
+                    "configId": 12773,
+                    "productId": 12770,
+                    "status": "ACTIVE",
+                    "createdBy": "Seema"
+                }
+            ]
+        },
+        {
+            "productId": 12793,
+            "productName": "Nov261121",
+            "description": "new productnewyr",
+            "accountingType": "DOUBLE",
+            "status": "INACTIVE",
+            "currency": "EUR",
+            "uom": "NUMBER",
+            "createdBy": "Vrsha",
+            "productClientDtoList": [
+                {
+                    "clientId": "1001",
+                    "productClientId": 12794
+                }
+            ],
+            "productConfigDtoList": [
+                {
+                    "configName": "ALLOW_NEGATIVE_BALANCE",
+                    "configValue": "700",
+                    "configId": 12797,
+                    "productId": 12793,
+                    "status": "INACTIVE",
+                    "createdBy": "Varsha"
+                },
+                {
+                    "configName": "RATE_LIMIT",
+                    "configValue": "1001",
+                    "configId": 12796,
+                    "productId": 12793,
+                    "status": "ACTIVE",
+                    "createdBy": "Seema"
+                },
+                {
+                    "configName": "MAX_ALLOWED_AMOUNT",
+                    "configValue": "500",
+                    "configId": 12795,
+                    "productId": 12793,
+                    "status": "ACTIVE",
+                    "createdBy": "vr"
+                }
+            ]
+        }
+    ],
+    "statusCode": "SUCCESS",
+    "message": "Successful product list",
+    "totalRecords": 58
+}
+Request method:	POST
+Request URI:	http://localhost:8090/products/addProduct
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "productDto": {
+        "productName": "Nov26112021",
+        "description": "new productnewyr",
+        "accountingType": "DOUBLE",
+        "status": "Active",
+        "currency": "EUR",
+        "createdBy": "Vrsha",
+        "productClientDtoList": [
+            {
+                "clientId": "1001",
+                "productClientId": 0
+            }
+        ],
+        "productConfigDtoList": [
+            {
+                "configName": "MAX_ALLOWED_AMOUNT",
+                "configValue": "500",
+                "status": "Active",
+                "createdBy": "vr",
+                "configId": 0,
+                "productId": 0
+            }
+        ],
+        "uom": "NUMBER",
+        "productId": 0
+    },
+    "statusCode": null,
+    "message": null
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 482
+Date: Fri, 26 Nov 2021 11:27:57 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "productDto": {
+        "productId": 12803,
+        "productName": "Nov26112021",
+        "description": "new productnewyr",
+        "accountingType": "DOUBLE",
+        "status": "ACTIVE",
+        "currency": "EUR",
+        "uom": "NUMBER",
+        "createdBy": "Vrsha",
+        "productClientDtoList": [
+            {
+                "clientId": "1001",
+                "productClientId": 12804
+            }
+        ],
+        "productConfigDtoList": [
+            {
+                "configName": "MAX_ALLOWED_AMOUNT",
+                "configValue": "500",
+                "configId": 12805,
+                "productId": 12803,
+                "status": "ACTIVE",
+                "createdBy": "vr"
+            }
+        ]
+    },
+    "statusCode": "SUCCESS",
+    "message": "Product has been saved successfully"
+}
+Request method:	POST
+Request URI:	http://localhost:8090/products/updateProduct
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "productId": 12803,
+    "status": "INACTIVE"
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 473
+Date: Fri, 26 Nov 2021 11:27:57 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "productDto": {
+        "productId": 12803,
+        "productName": "Nov26112021",
+        "description": "new productnewyr",
+        "accountingType": "DOUBLE",
+        "status": "INACTIVE",
+        "currency": "EUR",
+        "uom": "NUMBER",
+        "createdBy": "Vrsha",
+        "productClientDtoList": [
+            {
+                "clientId": "1001",
+                "productClientId": 12804
+            }
+        ],
+        "productConfigDtoList": [
+            {
+                "configName": "MAX_ALLOWED_AMOUNT",
+                "configValue": "500",
+                "configId": 12805,
+                "productId": 12803,
+                "status": "ACTIVE",
+                "createdBy": "vr"
+            }
+        ]
+    },
+    "statusCode": "SUCCESS",
+    "message": "Product has been updated"
+}
+Request method:	POST
+Request URI:	http://localhost:8090/products/config
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "productId": 12803,
+    "productName": "12803",
+    "productConfigDtoList": [
+        {
+            "configName": "Rate_Limit",
+            "configValue": "1001",
+            "status": "ACTIVE",
+            "createdBy": "Seema"
+        },
+        {
+            "configName": "ALLOW_NEGATIVE_BALANCE",
+            "configValue": "700",
+            "status": "INACTIVE",
+            "createdBy": "Varsha"
+        }
+    ]
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 250
+Date: Fri, 26 Nov 2021 11:27:58 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "productConfigDto": {
+        "configName": "RATE_LIMIT",
+        "configValue": "1001",
+        "configId": 12807,
+        "productId": 12803,
+        "status": "ACTIVE",
+        "createdBy": "Seema"
+    },
+    "statusCode": "SUCCESS",
+    "message": "Data Updated or Inserted for ProductId 12803 with Config Name RATE_LIMIT"
+}
+Request method:	GET
+Request URI:	http://localhost:8090/products/productId/12803
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "productDto": {
+        "productName": "Nov26112021",
+        "description": "new productnewyr",
+        "accountingType": "DOUBLE",
+        "status": "Active",
+        "currency": "EUR",
+        "createdBy": "Vrsha",
+        "productClientDtoList": [
+            {
+                "clientId": "1001",
+                "productClientId": 0
+            }
+        ],
+        "productConfigDtoList": [
+            {
+                "configName": "MAX_ALLOWED_AMOUNT",
+                "configValue": "500",
+                "status": "Active",
+                "createdBy": "vr",
+                "configId": 0,
+                "productId": 0
+            }
+        ],
+        "uom": "NUMBER",
+        "productId": 0
+    },
+    "statusCode": null,
+    "message": null
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 726
+Date: Fri, 26 Nov 2021 11:27:58 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "productDto": {
+        "productId": 12803,
+        "productName": "Nov26112021",
+        "description": "new productnewyr",
+        "accountingType": "DOUBLE",
+        "status": "INACTIVE",
+        "currency": "EUR",
+        "uom": "NUMBER",
+        "createdBy": "Vrsha",
+        "productClientDtoList": [
+            {
+                "clientId": "1001",
+                "productClientId": 12804
+            }
+        ],
+        "productConfigDtoList": [
+            {
+                "configName": "RATE_LIMIT",
+                "configValue": "1001",
+                "configId": 12807,
+                "productId": 12803,
+                "status": "ACTIVE",
+                "createdBy": "Seema"
+            },
+            {
+                "configName": "MAX_ALLOWED_AMOUNT",
+                "configValue": "500",
+                "configId": 12805,
+                "productId": 12803,
+                "status": "ACTIVE",
+                "createdBy": "vr"
+            },
+            {
+                "configName": "ALLOW_NEGATIVE_BALANCE",
+                "configValue": "700",
+                "configId": 12806,
+                "productId": 12803,
+                "status": "INACTIVE",
+                "createdBy": "Varsha"
+            }
+        ]
+    },
+    "statusCode": "SUCCESS",
+    "message": "Successful response"
+}
+Request method:	POST
+Request URI:	http://localhost:8090/transaction
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "transactionDto": {
+        "productTransaction": "AutoPayu1",
+        "fromAccountId": null,
+        "toAccountId": 12498,
+        "amount": 28000,
+        "transactionType": "Credit",
+        "transactionNarration": "First pool transaction",
+        "transactionDate": "2021-11-26 00:00:00",
+        "transactionMode": "NEFT",
+        "createdBy": "nane",
+        "transactionDetailList": [
+            {
+                "pgVendor": "heyvr",
+                "other": "nA"
+            }
+        ],
+        "transactionId": 0,
+        "productClientId": 0,
+        "productId": 12495
+    },
+    "statusCode": null,
+    "message": null
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 456
+Date: Fri, 26 Nov 2021 11:27:58 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "transactionDto": {
+        "transactionId": 12808,
+        "productTransaction": "AutoPayu1",
+        "fromAccountId": null,
+        "toAccountId": 12498,
+        "amount": 28000,
+        "transactionType": "CREDIT",
+        "productId": 12495,
+        "productClientId": 0,
+        "transactionNarration": "First pool transaction",
+        "transactionDate": "2021-11-26 00:00:00.0",
+        "transactionMode": "NEFT",
+        "createdBy": "nane",
+        "transactionDetailList": [
+            {
+                "other": "nA",
+                "pgVendor": "heyvr"
+            }
+        ]
+    },
+    "statusCode": "SUCCESS",
+    "message": "Transaction saved successfully"
+}
+Request method:	POST
+Request URI:	http://localhost:8090/transaction
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "transactionDto": {
+        "productTransaction": "AutoPayu",
+        "fromAccountId": 12498,
+        "toAccountId": 12499,
+        "amount": 45,
+        "transactionType": "Credit",
+        "transactionNarration": "First pool transaction",
+        "transactionDate": "2021-11-25 00:00:00",
+        "transactionMode": "NEFT",
+        "createdBy": "nane",
+        "transactionDetailList": [
+            {
+                "pgVendor": "heyvr",
+                "other": "nA"
+            }
+        ],
+        "transactionId": 0,
+        "productClientId": 0,
+        "productId": 12495
+    },
+    "statusCode": null,
+    "message": null
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 453
+Date: Fri, 26 Nov 2021 11:27:58 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "transactionDto": {
+        "transactionId": 12809,
+        "productTransaction": "AutoPayu",
+        "fromAccountId": 12498,
+        "toAccountId": 12499,
+        "amount": 45,
+        "transactionType": "CREDIT",
+        "productId": 12495,
+        "productClientId": 0,
+        "transactionNarration": "First pool transaction",
+        "transactionDate": "2021-11-25 00:00:00.0",
+        "transactionMode": "NEFT",
+        "createdBy": "nane",
+        "transactionDetailList": [
+            {
+                "other": "nA",
+                "pgVendor": "heyvr"
+            }
+        ]
+    },
+    "statusCode": "SUCCESS",
+    "message": "Transaction saved successfully"
+}
+Request method:	POST
+Request URI:	http://localhost:8090/accounts/getBalance
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accountId": 12499
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 111
+Date: Fri, 26 Nov 2021 11:27:58 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "accountBalanceDto": {
+        "accountId": 12499,
+        "balance": 9035
+    },
+    "statusCode": "SUCCESS",
+    "message": "Successful Response"
+}
+Request method:	POST
+Request URI:	http://localhost:8090/ledger
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accountId": 12499
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 8667
+Date: Fri, 26 Nov 2021 11:27:58 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "accountId": 12499,
+    "accountNumber": "LOAN43",
+    "accountName": "SimAcc",
+    "ledgerDto": [
+        {
+            "transactionId": 12713,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 5,
+            "debitValue": 0,
+            "balance": 5
+        },
+        {
+            "transactionId": 12715,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 10000,
+            "debitValue": 0,
+            "balance": 10005
+        },
+        {
+            "transactionId": 12716,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 5000,
+            "balance": 5005
+        },
+        {
+            "transactionId": 12717,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 1000,
+            "debitValue": 0,
+            "balance": 6005
+        },
+        {
+            "transactionId": 12718,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 500,
+            "balance": 5505
+        },
+        {
+            "transactionId": 12727,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 2000,
+            "debitValue": 0,
+            "balance": 7505
+        },
+        {
+            "transactionId": 12728,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 600,
+            "balance": 6905
+        },
+        {
+            "transactionId": 12730,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 2500,
+            "debitValue": 0,
+            "balance": 9405
+        },
+        {
+            "transactionId": 12731,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 650,
+            "balance": 8755
+        },
+        {
+            "transactionId": 12734,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 250,
+            "debitValue": 0,
+            "balance": 9005
+        },
+        {
+            "transactionId": 12735,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 65,
+            "balance": 8940
+        },
+        {
+            "transactionId": 12736,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 25,
+            "debitValue": 0,
+            "balance": 8965
+        },
+        {
+            "transactionId": 12737,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 6,
+            "balance": 8959
+        },
+        {
+            "transactionId": 12738,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 3,
+            "balance": 8956
+        },
+        {
+            "transactionId": 12739,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 4,
+            "debitValue": 0,
+            "balance": 8960
+        },
+        {
+            "transactionId": 12740,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 2,
+            "balance": 8958
+        },
+        {
+            "transactionId": 12741,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 3,
+            "debitValue": 0,
+            "balance": 8961
+        },
+        {
+            "transactionId": 12742,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 1,
+            "balance": 8960
+        },
+        {
+            "transactionId": 12743,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 7,
+            "debitValue": 0,
+            "balance": 8967
+        },
+        {
+            "transactionId": 12744,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 12,
+            "debitValue": 0,
+            "balance": 8979
+        },
+        {
+            "transactionId": 12745,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 11,
+            "balance": 8968
+        },
+        {
+            "transactionId": 12746,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 14,
+            "debitValue": 0,
+            "balance": 8982
+        },
+        {
+            "transactionId": 12747,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 13,
+            "balance": 8969
+        },
+        {
+            "transactionId": 12748,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 17,
+            "debitValue": 0,
+            "balance": 8986
+        },
+        {
+            "transactionId": 12749,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 16,
+            "balance": 8970
+        },
+        {
+            "transactionId": 12750,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 19,
+            "debitValue": 0,
+            "balance": 8989
+        },
+        {
+            "transactionId": 12751,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 18,
+            "balance": 8971
+        },
+        {
+            "transactionId": 12752,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 21,
+            "debitValue": 0,
+            "balance": 8992
+        },
+        {
+            "transactionId": 12753,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 20,
+            "balance": 8972
+        },
+        {
+            "transactionId": 12763,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 24,
+            "balance": 8948
+        },
+        {
+            "transactionId": 12765,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 31,
+            "debitValue": 0,
+            "balance": 8979
+        },
+        {
+            "transactionId": 12766,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 30,
+            "balance": 8949
+        },
+        {
+            "transactionId": 12776,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 42,
+            "debitValue": 0,
+            "balance": 8991
+        },
+        {
+            "transactionId": 12777,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 40,
+            "balance": 8951
+        },
+        {
+            "transactionId": 12779,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 52,
+            "debitValue": 0,
+            "balance": 9003
+        },
+        {
+            "transactionId": 12780,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 51,
+            "balance": 8952
+        },
+        {
+            "transactionId": 12782,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 61,
+            "debitValue": 0,
+            "balance": 9013
+        },
+        {
+            "transactionId": 12783,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 60,
+            "balance": 8953
+        },
+        {
+            "transactionId": 12785,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 81,
+            "debitValue": 0,
+            "balance": 9034
+        },
+        {
+            "transactionId": 12786,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 80,
+            "balance": 8954
+        },
+        {
+            "transactionId": 12788,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 101,
+            "debitValue": 0,
+            "balance": 9055
+        },
+        {
+            "transactionId": 12789,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 100,
+            "balance": 8955
+        },
+        {
+            "transactionId": 12799,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 35,
+            "debitValue": 0,
+            "balance": 8990
+        },
+        {
+            "transactionId": 12809,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 45,
+            "debitValue": 0,
+            "balance": 9035
+        }
+    ],
+    "statusCode": "SUCCESS",
+    "message": "Account Ledger has been generated",
+    "totalRecords": 44
+}
+Request method:	POST
+Request URI:	http://localhost:8090/transaction
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "transactionDto": {
+        "productTransaction": "AutoPayu",
+        "fromAccountId": 12499,
+        "toAccountId": 12498,
+        "amount": 44,
+        "transactionType": "Credit",
+        "transactionNarration": "First pool transaction",
+        "transactionDate": "2021-11-25 00:00:00",
+        "transactionMode": "NEFT",
+        "createdBy": "nane",
+        "transactionDetailList": [
+            {
+                "pgVendor": "heyvr",
+                "other": "nA"
+            }
+        ],
+        "transactionId": 0,
+        "productClientId": 0,
+        "productId": 12495
+    },
+    "statusCode": null,
+    "message": null
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 453
+Date: Fri, 26 Nov 2021 11:27:58 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "transactionDto": {
+        "transactionId": 12810,
+        "productTransaction": "AutoPayu",
+        "fromAccountId": 12499,
+        "toAccountId": 12498,
+        "amount": 44,
+        "transactionType": "CREDIT",
+        "productId": 12495,
+        "productClientId": 0,
+        "transactionNarration": "First pool transaction",
+        "transactionDate": "2021-11-25 00:00:00.0",
+        "transactionMode": "NEFT",
+        "createdBy": "nane",
+        "transactionDetailList": [
+            {
+                "other": "nA",
+                "pgVendor": "heyvr"
+            }
+        ]
+    },
+    "statusCode": "SUCCESS",
+    "message": "Transaction saved successfully"
+}
+Request method:	POST
+Request URI:	http://localhost:8090/accounts/getBalance
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accountId": 12498
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 113
+Date: Fri, 26 Nov 2021 11:27:58 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "accountBalanceDto": {
+        "accountId": 12498,
+        "balance": 658064
+    },
+    "statusCode": "SUCCESS",
+    "message": "Successful Response"
+}
+Request method:	POST
+Request URI:	http://localhost:8090/ledger
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accountId": 12498
+}
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 11705
+Date: Fri, 26 Nov 2021 11:27:58 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "accountId": 12498,
+    "accountNumber": "POOL43",
+    "accountName": "ABC",
+    "ledgerDto": [
+        {
+            "transactionId": 12500,
+            "transactionDate": "2021-11-18 00:00:00.0",
+            "productTransaction": "PTR101",
+            "transactionNarration": "New amount transfer",
+            "creditValue": 50000,
+            "debitValue": 0,
+            "balance": 50000
+        },
+        {
+            "transactionId": 12710,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 5000,
+            "debitValue": 0,
+            "balance": 55000
+        },
+        {
+            "transactionId": 12711,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 5,
+            "debitValue": 0,
+            "balance": 55005
+        },
+        {
+            "transactionId": 12712,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 50,
+            "debitValue": 0,
+            "balance": 55055
+        },
+        {
+            "transactionId": 12713,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 5,
+            "balance": 55050
+        },
+        {
+            "transactionId": 12715,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 10000,
+            "balance": 45050
+        },
+        {
+            "transactionId": 12716,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 5000,
+            "debitValue": 0,
+            "balance": 50050
+        },
+        {
+            "transactionId": 12717,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 1000,
+            "balance": 49050
+        },
+        {
+            "transactionId": 12718,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 500,
+            "debitValue": 0,
+            "balance": 49550
+        },
+        {
+            "transactionId": 12727,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 2000,
+            "balance": 47550
+        },
+        {
+            "transactionId": 12728,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 600,
+            "debitValue": 0,
+            "balance": 48150
+        },
+        {
+            "transactionId": 12730,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 2500,
+            "balance": 45650
+        },
+        {
+            "transactionId": 12731,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 650,
+            "debitValue": 0,
+            "balance": 46300
+        },
+        {
+            "transactionId": 12734,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 250,
+            "balance": 126050
+        },
+        {
+            "transactionId": 12735,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 65,
+            "debitValue": 0,
+            "balance": 126115
+        },
+        {
+            "transactionId": 12736,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 25,
+            "balance": 126090
+        },
+        {
+            "transactionId": 12737,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 6,
+            "debitValue": 0,
+            "balance": 126096
+        },
+        {
+            "transactionId": 12738,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 3,
+            "debitValue": 0,
+            "balance": 126099
+        },
+        {
+            "transactionId": 12739,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 4,
+            "balance": 126095
+        },
+        {
+            "transactionId": 12740,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 2,
+            "debitValue": 0,
+            "balance": 126097
+        },
+        {
+            "transactionId": 12741,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 3,
+            "balance": 126094
+        },
+        {
+            "transactionId": 12742,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 1,
+            "debitValue": 0,
+            "balance": 126095
+        },
+        {
+            "transactionId": 12743,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 7,
+            "balance": 126088
+        },
+        {
+            "transactionId": 12744,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 12,
+            "balance": 126076
+        },
+        {
+            "transactionId": 12745,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 11,
+            "debitValue": 0,
+            "balance": 126087
+        },
+        {
+            "transactionId": 12746,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 14,
+            "balance": 126073
+        },
+        {
+            "transactionId": 12747,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 13,
+            "debitValue": 0,
+            "balance": 126086
+        },
+        {
+            "transactionId": 12748,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 17,
+            "balance": 126069
+        },
+        {
+            "transactionId": 12749,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 16,
+            "debitValue": 0,
+            "balance": 126085
+        },
+        {
+            "transactionId": 12750,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 19,
+            "balance": 126066
+        },
+        {
+            "transactionId": 12751,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 18,
+            "debitValue": 0,
+            "balance": 126084
+        },
+        {
+            "transactionId": 12752,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 21,
+            "balance": 126063
+        },
+        {
+            "transactionId": 12753,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 20,
+            "debitValue": 0,
+            "balance": 126083
+        },
+        {
+            "transactionId": 12763,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 24,
+            "debitValue": 0,
+            "balance": 201107
+        },
+        {
+            "transactionId": 12765,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 31,
+            "balance": 271076
+        },
+        {
+            "transactionId": 12766,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 30,
+            "debitValue": 0,
+            "balance": 271106
+        },
+        {
+            "transactionId": 12776,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 42,
+            "balance": 343064
+        },
+        {
+            "transactionId": 12777,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 40,
+            "debitValue": 0,
+            "balance": 343104
+        },
+        {
+            "transactionId": 12779,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 52,
+            "balance": 414052
+        },
+        {
+            "transactionId": 12780,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 51,
+            "debitValue": 0,
+            "balance": 414103
+        },
+        {
+            "transactionId": 12782,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 61,
+            "balance": 493042
+        },
+        {
+            "transactionId": 12783,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 60,
+            "debitValue": 0,
+            "balance": 493102
+        },
+        {
+            "transactionId": 12785,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 81,
+            "balance": 582021
+        },
+        {
+            "transactionId": 12786,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 80,
+            "debitValue": 0,
+            "balance": 582101
+        },
+        {
+            "transactionId": 12788,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 101,
+            "balance": 601000
+        },
+        {
+            "transactionId": 12789,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 100,
+            "debitValue": 0,
+            "balance": 601100
+        },
+        {
+            "transactionId": 12799,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 35,
+            "balance": 630065
+        },
+        {
+            "transactionId": 12809,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 0,
+            "debitValue": 45,
+            "balance": 658020
+        },
+        {
+            "transactionId": 12810,
+            "transactionDate": "2021-11-25 00:00:00.0",
+            "productTransaction": "AutoPayu",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 44,
+            "debitValue": 0,
+            "balance": 658064
+        },
+        {
+            "transactionId": 12733,
+            "transactionDate": "2021-11-26 00:00:00.0",
+            "productTransaction": "AutoPayu1",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 80000,
+            "debitValue": 0,
+            "balance": 126300
+        },
+        {
+            "transactionId": 12762,
+            "transactionDate": "2021-11-26 00:00:00.0",
+            "productTransaction": "AutoPayu1",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 75000,
+            "debitValue": 0,
+            "balance": 201083
+        },
+        {
+            "transactionId": 12764,
+            "transactionDate": "2021-11-26 00:00:00.0",
+            "productTransaction": "AutoPayu1",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 70000,
+            "debitValue": 0,
+            "balance": 271107
+        },
+        {
+            "transactionId": 12775,
+            "transactionDate": "2021-11-26 00:00:00.0",
+            "productTransaction": "AutoPayu1",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 72000,
+            "debitValue": 0,
+            "balance": 343106
+        },
+        {
+            "transactionId": 12778,
+            "transactionDate": "2021-11-26 00:00:00.0",
+            "productTransaction": "AutoPayu1",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 71000,
+            "debitValue": 0,
+            "balance": 414104
+        },
+        {
+            "transactionId": 12781,
+            "transactionDate": "2021-11-26 00:00:00.0",
+            "productTransaction": "AutoPayu1",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 79000,
+            "debitValue": 0,
+            "balance": 493103
+        },
+        {
+            "transactionId": 12784,
+            "transactionDate": "2021-11-26 00:00:00.0",
+            "productTransaction": "AutoPayu1",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 89000,
+            "debitValue": 0,
+            "balance": 582102
+        },
+        {
+            "transactionId": 12787,
+            "transactionDate": "2021-11-26 00:00:00.0",
+            "productTransaction": "AutoPayu1",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 19000,
+            "debitValue": 0,
+            "balance": 601101
+        },
+        {
+            "transactionId": 12798,
+            "transactionDate": "2021-11-26 00:00:00.0",
+            "productTransaction": "AutoPayu1",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 29000,
+            "debitValue": 0,
+            "balance": 630100
+        },
+        {
+            "transactionId": 12808,
+            "transactionDate": "2021-11-26 00:00:00.0",
+            "productTransaction": "AutoPayu1",
+            "transactionNarration": "First pool transaction",
+            "creditValue": 28000,
+            "debitValue": 0,
+            "balance": 658065
+        }
+    ],
+    "statusCode": "SUCCESS",
+    "message": "Account Ledger has been generated",
+    "totalRecords": 59
+}
